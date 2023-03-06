@@ -16,6 +16,7 @@
     margin: 0 auto;
     background: radial-gradient(var(--gradient1), var(--gradient2));
     padding: 4rem;
+    background-color: #111213;
   }
   
   main {
@@ -26,11 +27,8 @@
     min-height: 40vh;
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 4rem;
-<<<<<<< HEAD
-    color: #233444;
-=======
-    color: #1f2933;
->>>>>>> 38858cf696f4ea8b670a38764249c8fe591b6b2d
+    color: #82a0bd;
+    background-color: #2124df71;
   }
   
   h2 {

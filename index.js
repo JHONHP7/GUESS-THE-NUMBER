@@ -18,25 +18,25 @@ function compareNumbers(){
    document.getElementById('guesses').innerHTML = userNumbers
 if (attemps < maxguesses){
     if (userNumber > computerNumber){
-            document.getElementById('textOutput').innerHTML = 'Your number is to high! '
+            document.getElementById('textOutput').innerHTML = 'Seu número é muito alto! '
             document.getElementById('inputBox').value = ''
             attemps++
             document.getElementById('attempts').innerHTML = attemps
     }
     else if (userNumber < computerNumber){
-            document.getElementById('textOutput').innerHTML = 'Your number is to low! '
+            document.getElementById('textOutput').innerHTML = 'Seu número é muito baixo! '
             document.getElementById('inputBox').value = ''
             attemps++
             document.getElementById('attempts').innerHTML = attemps
     }
     else {
-        document.getElementById('textOutput').innerHTML = 'Congratulations!!!  '
+        document.getElementById('textOutput').innerHTML = 'Parabéns!!!  '
         attemps++
         document.getElementById('attempts').innerHTML = attemps
         document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
     }
 } else {
-    document.getElementById('textOutput').innerHTML = 'You lose! The computer number was: ' + computerNumber
+    document.getElementById('textOutput').innerHTML = 'Você perdeu! O número do computador era: ' + computerNumber
     document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
 }
 }
