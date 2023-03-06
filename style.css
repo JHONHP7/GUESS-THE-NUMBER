@@ -11,12 +11,12 @@
     font-weight: 300;
   }
   
-  body {
+ body {
     width: 90vw;
     margin: 0 auto;
     background: radial-gradient(var(--gradient1), var(--gradient2));
     padding: 4rem;
-    background-color: black;
+    background-color: var(--black);
   }
   
   main {
