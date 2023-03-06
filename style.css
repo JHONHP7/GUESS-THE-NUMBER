@@ -1,9 +1,9 @@
 :root {
-    /*--green: #5ed68a;
+    --green: #5ed68a;
     --red: #aa2222;
     --background: #fafafa;
     --gradient-1: #343e63;
-    --gradient-2: #2a3352;*/
+    --gradient-2: #2a3352;
   }
   
   html {
@@ -28,7 +28,7 @@
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 4rem;
     color: #82a0bd;
-    background-color: #2124df71;
+    background-color: var(--background);
   }
   
   h2 {
